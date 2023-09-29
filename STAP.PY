@@ -44,9 +44,7 @@ class PrimarySchool(School):
     def __repr__(self):
 
         return super().__repr__() + (f' and a pickup Policy of {self.pickupPolicy}.')
-    
-school1 = School("Test school", "Middle", 1000)
-print(school1)
+
 
 school2 = PrimarySchool('some stupid children school', 500, 'parents pick up their child, otherwhise the child will become a part of the school lunch.')
 print(school2)

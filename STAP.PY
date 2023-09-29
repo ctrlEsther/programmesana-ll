@@ -22,9 +22,9 @@ class School():
 
         return self.numberOfStudents
     
-    def set_numberOfStudents(self, num):
+    def set_numberOfStudents(self, number):
 
-        self.numberOfStudents = num
+        self.numberOfStudents = number
 
     def __repr__(self):
 

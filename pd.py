@@ -25,9 +25,6 @@ class Prece():
 '''
 
 
-
-import json
-
 sastavdalas = []
 
 class Dators():
